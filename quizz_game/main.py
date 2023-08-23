@@ -1,6 +1,6 @@
 print("Wellcome to my Quizz(Computer) Game!")
 
-playing = input("Do you want to play? (yes | no)")
+playing = input("Do you want to play (yes | no) ? ")
 print(playing)
 if playing != "yes":
     quit()
@@ -23,3 +23,5 @@ else:
     print("Incorrect!")
 
 print(f"You got {score} questions Correct!")
+print(f"You got {(score / 2) * 100} %.")
+# print("You got " + str((score * 2) / 100) + " questions Correct!")
