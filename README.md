@@ -10,4 +10,6 @@ automation read, write xlsx files
 
 class - blueprint and objects
 
-proejcts
+real projects
+
+API Request using Python
